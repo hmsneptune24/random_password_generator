@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Password</title>
+	</head>
+	<body>
+		<form name="randform">
+			<input type="button" value="Create random password" onclick="randomString();">
+			<input type="text" name="randomfield" value="" id="thistext">
+			<input type="button" value="Copy" onclick="copytext();">
+		</form>
+		<br>
+		<div>Password Length: </div>
+		<select id="length">
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+		</select>
+		<br>
+		<div>Character type: </div>
+		<select id="chartype">
+			<option value="0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()+-_=">Full</option>
+			<option value="0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM">Not Include Symbols</option>
+			<option value="0123456789">Numbers Only</option>
+			<option value="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM">Characters Only</option>
+			<option value="qwertyuiopasdfghjklzxcvbnm">Lowercase Characters Only</option>
+			<option value="QWERTYUIOPASDFGHJKLZXCVBNM">Uppercase Characters Only</option>
+		</select>
+		<script src="script.js"></script>
+	</body>
+</html>
