@@ -3,6 +3,10 @@ I try creating a simple random password generator and its functions in Javascrip
 
 Release notes
 
+v0.2.0
+- UI: changed the "Character type" options from select box to checkbox.
+- Fixed bugs.
+
 v0.1.1
 - Fixed bugs
 
