@@ -28,14 +28,12 @@
 		</select>
 		<br>
 		<div>Character type: </div>
-		<select id="chartype">
-			<option value="0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()+-_=">Full</option>
-			<option value="0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM">Not Include Symbols</option>
-			<option value="0123456789">Numbers Only</option>
-			<option value="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM">Characters Only</option>
-			<option value="qwertyuiopasdfghjklzxcvbnm">Lowercase Characters Only</option>
-			<option value="QWERTYUIOPASDFGHJKLZXCVBNM">Uppercase Characters Only</option>
-		</select>
+		<form>
+			<input type="checkbox" id="Symbols" value="!@#$%^&*()+-_=" checked> Symbols <br>
+			<input type="checkbox" id="Numbers" value="0123456789" checked> Numbers <br>
+			<input type="checkbox" id="LChar" value="qwertyuiopasdfghjklzxcvbnm" checked> Lowercase Characters <br>
+			<input type="checkbox" id="UChar" value="QWERTYUIOPASDFGHJKLZXCVBNM" checked> Uppercase Characters <br>
+		</form>
 		<script src="script.js"></script>
 	</body>
 </html>
