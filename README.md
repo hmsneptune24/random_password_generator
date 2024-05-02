@@ -11,4 +11,4 @@ Function:
 - "Create random password" button
 - "Copy" button: copy generated characters to the clipboard
 - "Password Length": supported character lenght is from 4 to 16
-- "Character type": Symbols, Numbers, Lowercase Characters and Uppercase Characters (checkbox)
+- "Character type": Symbols, Numbers, Lowercase Characters and Uppercase Characters
