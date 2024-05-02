@@ -1,5 +1,17 @@
 function randomString(){
-	var chars = document.getElementById("chartype").value;
+	var chars = "";
+	if(document.getElementById("Symbols").checked == true){
+		chars = chars + document.getElementById("Symbols").value;
+	}
+	if(document.getElementById("Numbers").checked == true){
+		chars = chars + document.getElementById("Numbers").value;
+	}
+	if(document.getElementById("LChar").checked == true){
+		chars = chars + document.getElementById("LChar").value;
+	}
+	if(document.getElementById("UChar").checked == true){
+		chars = chars + document.getElementById("UChar").value;
+	}
 	var stirng_length = document.getElementById("length").value;
 	var randomstring="";
 	for(var i = 0; i < stirng_length; i++){
